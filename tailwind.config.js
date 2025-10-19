@@ -16,11 +16,25 @@ module.exports = {
         sans: ['ISO', ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        'custom-green': '#8BB191',
+        // Official OpenBeta color palette (grouped)
+        openbeta: {
+          50: '#fff8f6',
+          100: '#ffece7',
+          200: '#ffd0bf',
+          300: '#ffb38f',
+          400: '#f7935a',
+          500: '#F15E40', // primary
+          600: '#e04f33',
+          700: '#c1432a',
+          800: '#9a3521',
+          900: '#6f2518'
+        },
+        // Semantic aliases for easy use across the codebase
         'ob-primary': '#F15E40',
         'ob-secondary': '#8BB191',
         'ob-tertiary': '#62cae3',
         'ob-dark': '#0f172a', // slate-900
+        'custom-green': '#8BB191',
         'custom-secondary': '#62cae3',
         'custom-avery': '#a5d9cf',
         'custom-primary': '#F07933',
